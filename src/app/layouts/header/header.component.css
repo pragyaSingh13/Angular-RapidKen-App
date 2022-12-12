@@ -1,0 +1,23 @@
+#dropdownMenuButton1{
+    background-color: rgb(0, 0, 0);
+    margin-right: 50px;
+    color: white;
+}
+
+#searchbtn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-right: -50px;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(255, 93, 188);
+font-size:xx-large;
+font-weight: 400;
+
+}

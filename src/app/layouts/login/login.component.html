@@ -1,0 +1,20 @@
+<div style="background-color: #ffffff; margin-top: 50px;">
+    <h1 style="text-align: center; color: rgb(179, 32, 130); margin-top: -50px; background-color: rgb(211, 211, 211); padding-bottom: 7px;">Admin Login</h1>
+
+    <form style="margin-top: 50px; margin-left:580px" [formGroup]="loginForm">
+        <div class="form-outline col-3">
+            <label class="form-label" for="form2Example1">Username</label>
+            <input type="text" id="form2Example1" class="form-control" formControlName=email />
+
+        </div>
+        <div class="form-outline col-3">
+            <label class="form-label" for="form2Example2">Password</label>
+            <input type="password" id="form2Example2" class="form-control" formControlName=password />
+
+        </div>
+        <div class=" col-md-12">
+            <button style="margin-top: 10px; margin-left: 60px;" type="button" class="btn btn-block mb-4" (click)="onLogin()">Log in</button>
+        </div>
+
+    </form>
+</div>
